@@ -4,7 +4,7 @@ var ShareDB = require("sharedb");
 var richText = require("rich-text");
 var WebSocket = require("ws");
 var WebSocketJSONStream = require("@teamwork/websocket-json-stream");
-const { IS_PRODUCTION_MODE, MONGO_IP } = require("./common.js");
+const { IS_PRODUCTION_MODE, MONGO_IP, SHAREDB_IP } = require("./common.js");
 
 const sharedbmongoose = require("sharedb-mongo");
 const args = require("minimist")(process.argv.slice(2));
@@ -39,7 +39,7 @@ function startServer() {
     // if (IS_PRODUCTION_MODE) {
     //     server.listen(PORT, IP, () => console.log(`CSE356 Milestone 1 ShareDB: listening on port ${PORT}`))
     // } else {
-    server.listen(PORT, MONGO_IP, () =>
+    server.listen(PORT, SHAREDB_IP, () =>
         console.log(`CSE356 Milestone 4 ShareDB: listening on port ${PORT}`)
     );
     // }
