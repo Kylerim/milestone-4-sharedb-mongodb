@@ -19,6 +19,8 @@ const db = sharedbmongoose(`mongodb://${MONGO_IP}:27017/milestone4`, {
 ShareDB.types.register(richText.type);
 var backend = new ShareDB({ presence: true, db });
 // createDoc(startServer);
+let CLIENTS = [];
+
 startServer();
 
 function startServer() {
@@ -31,9 +33,10 @@ function startServer() {
     // Connect any incoming WebSocket connection to ShareDB
     var wss = new WebSocket.Server({ server: server });
     wss.on("connection", function (ws) {
+        CLIENTS.push(ws);
         var stream = new WebSocketJSONStream(ws);
         backend.listen(stream);
-        console.log("our main server is now connected to shareDB server");
+        console.log(`${CLIENTS.length} have connected to shareDB server`);
     });
 
     // if (IS_PRODUCTION_MODE) {
