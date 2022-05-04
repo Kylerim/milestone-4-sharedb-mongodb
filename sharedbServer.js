@@ -39,7 +39,7 @@ function startServer() {
     // if (IS_PRODUCTION_MODE) {
     //     server.listen(PORT, IP, () => console.log(`CSE356 Milestone 1 ShareDB: listening on port ${PORT}`))
     // } else {
-    server.listen(PORT, MONGO_SHAREDB_IP, () =>
+    server.listen(PORT, MONGO_IP, () =>
         console.log(`CSE356 Milestone 4 ShareDB: listening on port ${PORT}`)
     );
     // }
