@@ -51,8 +51,5 @@
         "script"             : "sharedbServer.js",
         "args"               : "-s --port=5645"
       }
-
     ]
-  }
-                                                                                                                                                  65,1          Bot
-    
+}
