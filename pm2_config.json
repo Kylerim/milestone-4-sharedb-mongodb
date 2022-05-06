@@ -1,0 +1,58 @@
+{
+    "apps" :[
+  
+      {
+        "name"               : "sharedb1",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5555"
+      },
+      {
+        "name"               : "sharedb2",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5556"
+      },
+      {
+        "name"               : "sharedb3",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5557"
+      },
+      {
+        "name"               : "sharedb4",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5558"
+      },
+      {
+        "name"               : "sharedb5",
+        "script"             : "sharedbServer.js",
+        "args"               :"-s --port=5559"
+      },
+      {
+        "name"               : "sharedb6",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5560"
+      },
+      {
+        "name"               : "sharedb7",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5561"
+      },
+      {
+        "name"               : "sharedb8",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5562"
+      },
+      {
+        "name"               : "sharedb9",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5563"
+      },
+      {
+        "name"               : "sharedb10",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5645"
+      }
+
+    ]
+  }
+                                                                                                                                                  65,1          Bot
+    
