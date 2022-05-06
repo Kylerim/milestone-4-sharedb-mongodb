@@ -49,7 +49,59 @@
       {
         "name"               : "sharedb10",
         "script"             : "sharedbServer.js",
-        "args"               : "-s --port=5645"
+        "args"               : "-s --port=5564"
+      },
+
+
+      {
+        "name"               : "sharedb11",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5565"
+      },
+      {
+        "name"               : "sharedb12",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5566"
+      },
+      {
+        "name"               : "sharedb13",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5567"
+      },
+      {
+        "name"               : "sharedb14",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5568"
+      },
+      {
+        "name"               : "sharedb15",
+        "script"             : "sharedbServer.js",
+        "args"               :"-s --port=5569"
+      },
+      {
+        "name"               : "sharedb16",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5570"
+      },
+      {
+        "name"               : "sharedb17",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5571"
+      },
+      {
+        "name"               : "sharedb18",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5572"
+      },
+      {
+        "name"               : "sharedb19",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5573"
+      },
+      {
+        "name"               : "sharedb20",
+        "script"             : "sharedbServer.js",
+        "args"               : "-s --port=5574"
       }
     ]
 }
